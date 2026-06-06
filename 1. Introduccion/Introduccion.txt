@@ -1,0 +1,33 @@
+¿Qué es Basic?
+
+Siglas de Beginners All-purpose Symbolic Instruction Code 
+(Código simbólico de instrucciones de propósito general para principiantes)
+
+El BASIC original, el Dartmouth BASIC, fue diseñado en 1964 por John George 
+Kemeny, Thomas Eugene Kurtz y Mary Kenneth Keller en el Dartmouth College 
+en New Hampshire, Estados Unidos, como un medio para facilitar la programación 
+en ordenadores a estudiantes (y profesores) que no fueran de ciencias. 
+En aquella época, casi todo el uso de los computadores requería codificar 
+software hecho a medida, con lo cual quedaba restringido a personas con 
+formación como científicos y matemáticos.
+
+
+¿Como Piensa un Programa?
+
+INSTRUCCIONES
++
+ORDEN
++
+LÓGICA
+
+La computadora NO piensa, solo sigue instrucciones exactas.
+
+Ejemplo humano:
+
+1. Levántate
+2. Camina
+3. Abre la puerta
+
+
+Ejemplo en BASIC:
+PRINT "Hola"
