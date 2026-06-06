@@ -1,0 +1,239 @@
+---------------------------------------------------------------------------------
+¿Qué es una variable?
+---------------------------------------------------------------------------------
+Una variable es:
+
+> un espacio donde el programa guarda información
+Piensa en una caja con etiqueta.
+
+Ejemplo:
+Caja: edad
+Contenido: 17
+
+o:
+
+Caja: nombre
+Contenido: "Pepito"
+
+
+
+---------------------------------------------------------------------------------
+Crear variables
+---------------------------------------------------------------------------------
+En BASIC no necesitas escribir tipos complejos al inicio.
+
+Puedes hacer:
+edad = 17
+
+o:
+
+nombre$ = "Pepito"
+
+
+
+
+---------------------------------------------------------------------------------
+El signo =
+---------------------------------------------------------------------------------
+En programación:
+
+=
+
+NO significa “igual”.
+Significa:
+
+> guardar un valor.
+
+Ejemplo:
+vida = 100
+
+La computadora entiende:
+
+    Guarda 100 dentro de la variable vida
+
+
+
+
+---------------------------------------------------------------------------------
+Variables numéricas
+---------------------------------------------------------------------------------
+Guardan números.
+
+Ejemplos:
+
+edad = 17
+vidas = 3
+energia = 95
+temperatura = 24
+
+
+
+
+---------------------------------------------------------------------------------
+Variables de texto
+---------------------------------------------------------------------------------
+Las variables de texto llevan:
+
+$
+
+al final.
+
+Ejemplo:
+nombre$ = "Rafax"
+ciudad$ = "Bogota"
+
+
+El `$` le dice a BASIC:
+> “esto es texto”.
+
+
+
+
+---------------------------------------------------------------------------------
+Mostrar variables con PRINT
+---------------------------------------------------------------------------------
+Ejemplo:
+nombre$ = "Pepito"
+PRINT nombre$
+
+Resultado:
+Pepito
+
+
+
+---------------------------------------------------------------------------------
+Mostrar texto + variables
+---------------------------------------------------------------------------------
+Puedes combinar:
+nombre$ = "Pepe"
+
+PRINT "Hola "; nombre$
+
+Resultado:
+Hola Pepe
+
+
+
+---------------------------------------------------------------------------------
+El punto y coma ;
+---------------------------------------------------------------------------------
+El:
+;
+
+une cosas en una misma línea.
+
+Ejemplo:
+edad = 17
+PRINT "Tu edad es "; edad
+
+
+Resultado:
+Tu edad es 17
+
+
+
+
+---------------------------------------------------------------------------------
+INPUT — pedir datos
+---------------------------------------------------------------------------------
+Aquí el programa puede hablar con el usuario.
+
+Ejemplo:
+INPUT "Escribe tu nombre: ", nombre$
+PRINT "Hola "; nombre$
+
+
+
+
+---------------------------------------------------------------------------------
+Cómo funciona INPUT
+---------------------------------------------------------------------------------
+Cuando aparece:
+Escribe tu nombre:
+
+el programa espera que escribas algo.
+Si escribes:
+
+Pepito
+
+la variable guardará eso.
+
+
+
+
+---------------------------------------------------------------------------------
+Programa interactivo
+---------------------------------------------------------------------------------
+Prueba esto:
+
+CLS
+
+INPUT "Como te llamas: ", nombre$
+INPUT "Cuantos años tienes: ", edad
+
+PRINT
+PRINT "Hola "; nombre$
+PRINT "Tu edad es "; edad
+
+END
+
+
+
+
+---------------------------------------------------------------------------------
+PRINT vacío
+---------------------------------------------------------------------------------
+Esto:
+PRINT
+
+deja una línea en blanco.
+Sirve para ordenar la pantalla.
+
+
+
+
+---------------------------------------------------------------------------------
+Matemáticas en BASIC
+---------------------------------------------------------------------------------
+BASIC puede calcular:
+a = 10
+b = 5
+suma = a + b
+PRINT suma
+
+Resultado:
+15
+
+
+
+
+---------------------------------------------------------------------------------
+Operaciones básicas
+---------------------------------------------------------------------------------
+| Operación | Símbolo |
+| --------  | ------- |
+| Suma      |    +    |
+| Resta     |    -    |
+| Multiplica|    *    |
+| División  |    /    |
+
+
+
+
+---------------------------------------------------------------------------------
+Ejemplo matemático
+---------------------------------------------------------------------------------
+a = 20
+b = 4
+
+PRINT a + b
+PRINT a - b
+PRINT a * b
+PRINT a / b
+
+
+Resultado:
+24
+16
+80
+5
