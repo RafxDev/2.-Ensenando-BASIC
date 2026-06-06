@@ -1,5 +1,6 @@
+-------------------------------------------------------------------------------
 ¿Qué es Basic?
-
+-------------------------------------------------------------------------------
 Siglas de Beginners All-purpose Symbolic Instruction Code 
 (Código simbólico de instrucciones de propósito general para principiantes)
 
@@ -12,8 +13,10 @@ software hecho a medida, con lo cual quedaba restringido a personas con
 formación como científicos y matemáticos.
 
 
-¿Como Piensa un Programa?
 
+---------------------------------------------------------------------------------
+¿Como Piensa un Programa?
+---------------------------------------------------------------------------------
 INSTRUCCIONES
 +
 ORDEN
@@ -24,10 +27,100 @@ La computadora NO piensa, solo sigue instrucciones exactas.
 
 Ejemplo humano:
 
-1. Levántate
-2. Camina
-3. Abre la puerta
+    1. Levántate
+    2. Camina
+    3. Abre la puerta
 
 
 Ejemplo en BASIC:
 PRINT "Hola"
+
+
+
+---------------------------------------------------------------------------------
+¿Qué hace PRINT?
+---------------------------------------------------------------------------------
+
+PRINT significa:
+
+> Mostrar texto en pantalla.
+
+
+
+---------------------------------------------------------------------------------
+Las comillas
+---------------------------------------------------------------------------------
+Todo texto debe ir entre comillas.
+
+Correcto:
+PRINT "Hola"
+
+
+Incorrecto:
+PRINT Hola
+
+Porque BASIC pensará que `Hola` es una variable.
+
+
+---------------------------------------------------------------------------------
+Varias líneas
+---------------------------------------------------------------------------------
+
+Cada instrucción normalmente va en una línea distinta:
+
+PRINT "Linea 1"
+PRINT "Linea 2"
+PRINT "Linea 3"
+
+
+
+---------------------------------------------------------------------------------
+CLS — limpiar pantalla
+---------------------------------------------------------------------------------
+
+CLS
+
+Significa:
+
+> Clear Screen
+
+Limpia la consola.
+
+
+
+
+
+---------------------------------------------------------------------------------
+END — terminar programa
+---------------------------------------------------------------------------------
+
+END
+
+Finaliza el programa.
+
+Ejemplo:
+
+PRINT "Inicio"
+END
+PRINT "Esto no aparece"
+
+
+
+
+---------------------------------------------------------------------------------
+Tu primer mini programa
+---------------------------------------------------------------------------------
+
+Escribe esto:
+
+
+CLS
+
+PRINT "================="
+PRINT "MI PRIMER PROGRAMA"
+PRINT "================="
+
+PRINT "Hola Rafax"
+PRINT "Estoy aprendiendo BASIC"
+
+END
